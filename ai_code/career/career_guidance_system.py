@@ -20,7 +20,7 @@ class CareerGuidanceSystem:
 
         if groq_api_key:
             os.environ["GROQ_API_KEY"] = groq_api_key
-            self.llm = ChatGroq(model='gemma2-9b-it', groq_api_key=groq_api_key)
+            self.llm = ChatGroq(model='llama-3.1-8b-instant', groq_api_key=groq_api_key)
 
         if serpapi_key and self.llm:
             os.environ["SERPER_API_KEY"] = serpapi_key

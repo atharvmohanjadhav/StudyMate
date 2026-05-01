@@ -10,7 +10,7 @@ load_dotenv()
 
 st.set_page_config(page_title="AI Study Assistant", layout="wide")
 
-st.title("🧠 AI-Powered Study Assistant")
+st.title("AI-Powered Study Assistant")
 st.markdown("Generate a **deep topic-only mind map** and flashcards from your notes, PDFs, or a topic name.")
 
 groq_api_key = os.getenv("GROQ_API_KEY")
