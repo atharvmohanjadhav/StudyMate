@@ -1,6 +1,6 @@
 from urllib.parse import urlparse, parse_qs
 from typing import Optional, Tuple
-import google.generativeai as genai
+# import google.generativeai as genai
 from youtube_transcript_api import YouTubeTranscriptApi
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import ChatGoogleGenerativeAI
